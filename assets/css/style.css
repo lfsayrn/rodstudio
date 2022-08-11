@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #000 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.animation:hover {
+  margin-top: -12px;
+  transition: all 0.2s cubic-bezier(0.17, 0.69, 0.79, 0.93);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+.container .navbar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding: 10px 20px;
+}
+.container .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.container .navbar .container-fluid img {
+  filter: invert(100%);
+  height: 90px;
+}
+.container .navbar .container-fluid .social-media {
+  display: flex;
+  align-items: center;
+}
+.container .navbar .container-fluid .social-media a {
+  color: #e9e9e9;
+  text-decoration: none;
+  margin: 0px 5px;
+  font-size: 20px;
+}
+.container .content {
+  height: 75vh;
+  overflow: auto;
+  color: #e9e9e9;
+  padding: 40px;
+}
+.container .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+.container .menu a {
+  color: #e9e9e9;
+  font-weight: 800;
+  text-decoration: none;
+  margin: 0px 10px;
+  font-size: 20px;
+}
+.container .menu a .label-about::after {
+  content: "About";
+}
+.container .menu a .label-about:hover::after {
+  content: "About";
+}
+.container .menu a .label-cont::after {
+  content: "Contact";
+}
+.container .menu a .label-cont:hover::after {
+  content: "Contact";
+}
+.container .menu a .label-jobs::after {
+  content: "Jobs";
+}
+.container .menu a .label-jobs:hover::after {
+  content: "Jobs";
+}
+.container .menu a .label-port::after {
+  content: "Portfolio";
+}
+.container .menu a .label-port:hover::after {
+  content: "Portfolio";
+}
+.container .menu a .label-about:hover::after,
+.container .menu a .label-cont:hover::after,
+.container .menu a .label-jobs:hover::after,
+.container .menu a .label-port:hover::after {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

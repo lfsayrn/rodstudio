@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.animation:hover {
+    margin-top: -12px;
+    transition: all .2s cubic-bezier(.17, .69, .79, .93);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        height: 50px;
+        padding: 10px 20px;
+
+        .container-fluid {
+            display: flex;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+
+            img {
+                filter: invert(100%);
+                height: 90px;
+            }
+
+            .social-media {
+                display: flex;
+                align-items: center;
+
+                a {
+                    color: #e9e9e9;
+                    text-decoration: none;
+                    margin: 0px 5px;
+                    font-size: 20px;
+                }
+
+            }
+        }
+    }
+
+    .content {
+        height: 75vh;
+        overflow: auto;
+        color: #e9e9e9;
+        padding: 40px;
+    }
+
+
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+
+        a {
+            color: #e9e9e9;
+            font-weight: 800;
+            text-decoration: none;
+            margin: 0px 10px;
+            font-size: 20px;
+
+            .label-about::after {
+                content: 'About';
+            }
+
+            .label-about:hover::after {
+                content: 'About';
+            }
+
+            .label-cont::after {
+                content: 'Contact';
+            }
+
+            .label-cont:hover::after {
+                content: 'Contact';
+            }
+
+            .label-jobs::after {
+                content: 'Jobs';
+            }
+
+            .label-jobs:hover::after {
+                content: 'Jobs';
+            }
+
+            .label-port::after {
+                content: 'Portfolio';
+            }
+
+            .label-port:hover::after {
+                content: 'Portfolio';
+            }
+
+            .label-about:hover::after,
+            .label-cont:hover::after,
+            .label-jobs:hover::after,
+            .label-port:hover::after {
+                color: red;
+            }
+
+        }
+    }
+
+}
