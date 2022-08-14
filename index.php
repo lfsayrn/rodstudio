@@ -36,9 +36,6 @@
             <a href="./contact/">
                 <div class ="animation label-cont"></div>
             </a>
-            <a href="./jobs/">
-                <div class ="animation label-jobs"></div>
-            </a>
             <a href="./portf/">
                 <div class="animation label-port"></div>
             </a>
