@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../node_modules/bootstrap/dist/css/bootstrap.min.css"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Rodstudio</title>
+</head>
+<body>
+
+    <div class="container" id = "container">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <img src="../assets/images/Logo_teste.png" alt="">
+
+                <div class="social-media">
+                    <a href="https://instagram.com/doisroficial" target="_blank">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="https://open.spotify.com/playlist/0X0Ao2EsZJ3w2vwHxr6eTL?si=045624e4e252423a">
+                        <i class="bi bi-spotify"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <div class="about">
+                <h2>Sobre</h2>
+                <p>
+                A Rod Studio é a realização de um sonho que nasce para tornar o sonho do próximo realidade, através da pós-produção de áudio.
+                É perceptível que os artistas que não investem no áudio tendem a ter projetos menos admirados e premiados. Por isso, surgimos visando 
+                priorizar a parte de pós-produção, sem fazer gravações ou outros serviços que tirariam nosso foco.
+                Atualmente, oferecemos edição de música, preparação de sessão de mixagem, mixagem e masterização de música, edição de áudio de podcasts 
+                e mixagem de curtas ou vídeos menores.
+                Temos em nosso portfólio trabalhos com grandes nomes do Rap Nacional, como Dk47, Massaru, Raillow Primeiramente, Mc Noventa, DaLua.
+
+                </p>
+            </div>
+        </div>
+        <div class="menu">
+            <a href="#content">
+                <div class="animation label-about"></div>
+            </a>
+            <a href="./contact/">
+                <div class ="animation label-cont"></div>
+            </a>
+            <a href="./portf/">
+                <div class="animation label-port"></div>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+</html>
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
