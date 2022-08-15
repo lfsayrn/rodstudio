@@ -14,7 +14,7 @@
     <div class="container">
         <nav class="navbar">
             <div class="container-fluid">
-                <img src="./assets/images/Logo.png" alt="">
+                <img src="./assets/images/Logo_teste.png" alt="">
 
                 <div class="social-media">
                     <a href="https://instagram.com/doisroficial" target="_blank">
